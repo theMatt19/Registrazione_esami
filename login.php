@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use League\Plates\Engine;
 
 // Create new Plates instance
-$templates = new League\Plates\Engine('templates', 'phtml');
+$templates = new League\Plates\Engine('template', 'phtml');
 
 // Code
 try {
