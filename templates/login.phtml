@@ -1,0 +1,33 @@
+<?php $this->layout('home', ['title' => 'login']) ?>
+
+<div class="form-group">
+    <form class="form-horizontal" action="login.php" method="post">
+        <input class="btn btn-primary" type="submit" style="margin: auto" value="Mostra Tabelle">
+    </form>
+</div>
+<br>
+<h2>Aggiungi o Modifica un' auto</h2>
+<form class="form-horizontal" action="aggiornamento_auto.php" method="post">
+    <div class="form-group">
+        <div class="col-4 col-sm-12">
+            <label class="form-label" for="input-example-1">Inserisci nome utente:</label>
+        </div>
+        <div class="col-8 col-sm-12">
+            <input class="form-input" type="text" name="utente" placeholder=" inserisci nome utente">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-4 col-sm-12">
+            <label class="form-label" for="input-example-1">Inserisci la password:</label>
+        </div>
+        <div class="col-8 col-sm-12">
+            <input class="form-input" type="text" name="psw" placeholder="psw">
+        </div>
+    </div>
+</form>
+<br>
+<div class="form-group">
+    <form class="form-horizontal" action="pagina_iniziale.phtml" method="post">
+        <input class="btn btn-primary" type="submit" style="margin: auto" value="conferma">
+    </form>
+</div>
