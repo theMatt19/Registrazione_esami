@@ -12,7 +12,8 @@ $app = AppFactory::create();
 $app->setBasePath("/5AI/registrazione_esami");
 
 $app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Hello world!");
+    $template = $this->get('templates');
+    $response->getBody()->write($template->render('pagina_iniziale'));
     return $response;
 });
 
