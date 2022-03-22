@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f423ee90-5dc3-4ce0-886a-77552478f8d8" name="registrazione_esami" url="http://localhost:">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\5AI\registrazione_esami" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
